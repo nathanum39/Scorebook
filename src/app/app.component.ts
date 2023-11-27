@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ScorebookApp';
+  static count: number  = 0;
+  static team = ''; 
 }
